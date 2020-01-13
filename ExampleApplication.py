@@ -9,11 +9,11 @@
 # disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
 ########################################################## {COPYRIGHT-END} ###
 
+import os
+
 from ibm_spectrum_discover_application_sdk.ApplicationMessageBase import ApplicationMessageBase, ApplicationReplyMessage
 from ibm_spectrum_discover_application_sdk.ApplicationLib import ApplicationBase
 from ibm_spectrum_discover_application_sdk.DocumentRetrievalBase import DocumentKey, DocumentRetrievalFactory
-
-import os
 
 ENCODING = 'utf-8'
 
