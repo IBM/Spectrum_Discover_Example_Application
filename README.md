@@ -1,5 +1,21 @@
 ExampleApplication
 ==============
+
+Table of contents
+=================
+
+   * [Overview](#Overview)
+   * [Running the application](#Running-the-application-as-a-kubernetes-pod-within-Spectrum-Discover)
+      * [As a kubernetes pod within Spectrum Discover](#Running-the-application-as-a-kubernetes-pod-within-Spectrum-Discover)
+      * [As a docker container on Spectrum Discover node](#Running-the-application-as-a-docker-container-on-Spectrum-Discover-node)
+      * [As a python file](#Running-the-application-as-a-python-file)
+   * [Implementation of ExampleApplication](#Implementation-of-ExampleApplication)
+   * [Editing Example Application with custom code](#Editing-Example-Application-with-custom-code)
+   * [Building your application](#Building-your-application)
+   * [Publishing your application for use in the IBM Spectrum Discover Application Catalog](#Publishing-your-application-for-use-in-the-IBM-Spectrum-Discover-Application-Catalog)
+   * [Additional Information](#Additional-Information)
+
+## Overview
 This Example Application will be used as a template in creating your own application.
 
 Before starting this application:
