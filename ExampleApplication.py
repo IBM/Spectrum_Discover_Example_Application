@@ -96,6 +96,10 @@ if __name__ == '__main__':
                         logger.info("Could not find file: %s.", tmpfile_path)
                         reply.add_result('failed', key)
                         continue
+                    except PermissionError:
+                        logger.info("Could not open file: %s.", tmpfile_path)
+                        reply.add_result('failed', key)
+                        continue
                     ##################################################
                     ################# End Custom Code ################
                     ##################################################
