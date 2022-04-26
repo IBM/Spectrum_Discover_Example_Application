@@ -6,7 +6,7 @@ LABEL application_name="example"
 LABEL filetypes="all"
 LABEL description="Performs a character count on a specified file."
 #smeverv2 (ex: 0.1.2)
-LABEL version="0.0.3"
+LABEL version="0.0.4"
 #license type (ex: MIT)
 LABEL license="mit"
 
@@ -21,10 +21,10 @@ LABEL license="mit"
 
 COPY ExampleApplication.py requirements.txt /application/
 
-RUN    python3.6 -m pip install -r /application/requirements.txt && \
-       rm -f /application/requirements.txt
+RUN python3 -m pip install -r /application/requirements.txt && \
+    rm -f /application/requirements.txt
 
 #RUN yum install -y pkg1 pkg2 pkg3 etc
 
 ENTRYPOINT []
-CMD ["python3.6", "/application/ExampleApplication.py"]
+CMD ["python3", "/application/ExampleApplication.py"]
